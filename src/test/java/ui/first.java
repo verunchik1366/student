@@ -100,9 +100,9 @@ public class first {
     public void testLinearSearch() {
         int[] arr = {10, 20, 30, 40, 50};
 
-        System.out.println(linearSearch(arr, 30)); // Має бути 2
-        System.out.println(linearSearch(arr, 99)); // Має бути -1
-        System.out.println(linearSearch(arr, 10)); // Має бути 0
+        System.out.println(linearSearch(arr, 30)); 
+        System.out.println(linearSearch(arr, 99)); 
+        System.out.println(linearSearch(arr, 10)); 
     }
 
     private int linearSearch(int[] arr, int num) {
